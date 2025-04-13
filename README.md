@@ -24,7 +24,7 @@ LocalSendApp is a Flutter application designed for simple peer-to-peer file shar
 1.  **Install Flutter:** Ensure you have the Flutter SDK installed and configured on your system. See the [official Flutter installation guide](https://docs.flutter.dev/get-started/install).
 2.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone <https://github.com/MarcoAlejandroLopezGomez/local_send_app.git>
     cd local_send_app
     ```
 3.  **Get Dependencies:**
