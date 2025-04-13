@@ -1,0 +1,30 @@
+name: local_send_app
+description: A local file sending application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Ensure you have a recent Dart SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5         # State management
+  multicast_dns: ^0.3.2+2   # mDNS / Zeroconf discovery
+  file_picker: ^6.0.0       # Native file picker
+  shared_preferences: ^2.2.0 # Simple local storage
+  network_info_plus: ^4.1.0  # Get network interface info (useful for finding hotspot IP)
+  device_info_plus: ^9.0.0   # Get device info (for default name)
+  path_provider: ^2.1.0     # Find standard directory locations (like Downloads)
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

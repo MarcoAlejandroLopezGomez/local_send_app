@@ -1,0 +1,10 @@
+^C:\LOCALSENDAPP\LOCAL_SEND_APP\BUILD\WINDOWS\X64\CMAKEFILES\C36B979BC741F448E9E5B99FC0018E27\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/LocalSendApp/local_send_app/windows -BC:/LocalSendApp/local_send_app/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/LocalSendApp/local_send_app/build/windows/x64/local_send_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
