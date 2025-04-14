@@ -1,7 +1,7 @@
 # LocalSendApp
 
 LocalSendApp is a Flutter application designed for simple peer-to-peer file sharing between devices on the same local network (Wi-Fi). It uses mDNS (Bonjour/Zeroconf) for device discovery and direct TCP socket connections for file transfers, eliminating the need for internet access or central servers.
-.
+
 ## Features
 
 *   **Local Network Discovery:** Automatically discovers other devices running LocalSendApp on the same Wi-Fi network using mDNS.
